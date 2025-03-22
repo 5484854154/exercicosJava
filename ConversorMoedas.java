@@ -13,15 +13,15 @@ public class ConversorMoedas {
 
         switch (opcao) {
             case 1:
-                convertido = reais / 5.7385; // Dólar: R$ 5,7385
+                convertido = reais / 5.7385; 
                 System.out.println("Valor em dólares: " + convertido);
                 break;
             case 2:
-                convertido = reais / 6.2735; // Euro: R$ 6,2735
+                convertido = reais / 6.2735; 
                 System.out.println("Valor em euros: " + convertido);
                 break;
             case 3:
-                convertido = reais / 7.2934; // Libra: R$ 7,2934 (aproximadamente)
+                convertido = reais / 7.2934; 
                 System.out.println("Valor em libras: " + convertido);
                 break;
             default:
