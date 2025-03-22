@@ -10,7 +10,7 @@ public class ParOuImpar {
             num = scanner.nextInt();
 
             if (num == 0) {
-                break; // Sai do loop quando o usuário digitar 0
+                break; 
             }
 
             if (num % 2 == 0) {
