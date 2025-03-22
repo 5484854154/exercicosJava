@@ -8,13 +8,13 @@ public class MediaNumeros {
         do {
             System.out.print("Digite um número (0 para sair): ");
             num = scanner.nextInt();
-            if (num != 0) { // Apenas soma números diferentes de 0
+            if (num != 0) { 
                 soma += num;
                 contador++;
             }
         } while (num != 0);
 
-        if (contador > 0) { // Evita divisão por zero
+        if (contador > 0) { 
             double media = (double) soma / contador;
             System.out.println("Média dos números digitados: " + media);
         } else {
